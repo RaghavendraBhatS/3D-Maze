@@ -4,7 +4,6 @@
 #include <string.h>
 #include <GL/glut.h>
 #include <math.h>
-
 #define row 17      	//maze size
 #define col 17     	//these have to be odd numbers
 #define cubeSize 30.0  	//size of cubes
@@ -668,7 +667,7 @@ void createmenu()
 	glutAddMenuEntry("Toggle Day/Night",4);
 	glutAddMenuEntry("Quit",5);
 	glutAttachMenu(GLUT_RIGHT_BUTTON);
-	}
+}
 
 int main(int argc, char **argv)
 {
